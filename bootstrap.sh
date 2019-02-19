@@ -17,3 +17,5 @@ cp .dotfiles/.zshrc .zshrc
 
 defaults write com.apple.Dock autohide -bool TRUE; killall Dock
 
+gpg --batch --no-tty "$@"
+
