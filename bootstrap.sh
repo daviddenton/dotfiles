@@ -4,12 +4,9 @@ rm -rf master.zip
 pushd dotfiles-master
 cd dotfiles-master
 
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew tap Homebrew/bundle
-brew bundle
+./setupBrew.sh
+./setupZsh.sh
+
 popd
 
 rm -rf dotfiles-master
-
-
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
