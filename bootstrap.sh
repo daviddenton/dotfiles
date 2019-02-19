@@ -13,4 +13,4 @@ git remote rm origin
 git remote add origin git@github.com:daviddenton/dotfiles.git
 popd
 
-zsh .dotfiles/setupAntigen.sh
+cp .dotfiles/.zshrc .zsrhc
