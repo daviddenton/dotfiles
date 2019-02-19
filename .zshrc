@@ -1,3 +1,4 @@
+POWERLEVEL9K_INSTALLATION_PATH=$ANTIGEN_BUNDLES/bhilburn/powerlevel9k
 source /usr/local/share/antigen/antigen.zsh
 
 antigen use oh-my-zsh
@@ -11,6 +12,7 @@ antigen bundle git
 antigen bundle pip
 antigen bundle zsh-users/zsh-syntax-highlighting
 
-antigen theme powerlevel9k
+antigen theme bhilburn/powerlevel9k powerlevel9k
 
 antigen apply
+
