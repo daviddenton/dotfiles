@@ -11,6 +11,6 @@ antigen bundle git
 antigen bundle pip
 antigen bundle zsh-users/zsh-syntax-highlighting
 
-antigen theme powerlevel9k
+antigen theme robbyrussell
 
 antigen apply
