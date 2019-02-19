@@ -12,3 +12,5 @@ pushd .dotfiles
 git remote rm origin
 git remote add origin git@github.com:daviddenton/dotfiles.git
 popd
+
+.dotfiles/setupZsh.sh
