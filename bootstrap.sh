@@ -10,3 +10,6 @@ brew bundle
 popd
 
 rm -rf dotfiles-master
+
+touch ~/.zshrc
+
