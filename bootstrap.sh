@@ -14,3 +14,6 @@ git remote add origin git@github.com:daviddenton/dotfiles.git
 popd
 
 cp .dotfiles/.zshrc .zshrc
+
+defaults write com.apple.Dock autohide -bool TRUE; killall Dock
+
