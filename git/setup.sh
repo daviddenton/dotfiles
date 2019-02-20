@@ -1,3 +1,5 @@
+echo Git setup
+
 echo "Name:"
 read name
 

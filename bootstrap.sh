@@ -13,9 +13,10 @@ git remote rm origin
 git remote add origin git@github.com:daviddenton/dotfiles.git
 popd
 
-cp .dotfiles/.zshrc .zshrc
-
-.dotfiles/setupOsx.sh
+.dotfiles/brew/setup.sh
+.dotfiles/git/setup.sh
+.dotfiles/osx/setup.sh
+.dotfiles/zsh/setup.sh
 
 gpg --batch --no-tty "$@"
 

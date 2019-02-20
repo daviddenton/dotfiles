@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+echo SSH setup
+
 cp config ~/.ssh/config
 
 echo "Email:"
