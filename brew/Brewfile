@@ -25,6 +25,8 @@ brew "mas"
 brew "powerlevel9k"
 brew "stern"
 brew "zsh"
+brew "gpg"
+brew "pinentry-mac"
 
 cask "alfred"
 cask "backblaze"
