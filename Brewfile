@@ -22,6 +22,7 @@ brew "coreutils"
 brew "jenv"
 brew "jq"
 brew "powerlevel9k"
+brew "mas"
 
 cask "alfred"
 cask "dashlane"
@@ -34,3 +35,6 @@ cask "jetbrains-toolbox"
 cask "jiggler"
 cask "sublime-text"
 cask "zoomus"
+
+mas "GIPHY Capture", id 668208984
+
