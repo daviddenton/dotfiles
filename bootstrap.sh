@@ -17,6 +17,7 @@ popd
 .dotfiles/git/setup.sh
 .dotfiles/osx/setup.sh
 .dotfiles/zsh/setup.sh
+.dotfiles/dev/setup.sh
 
 gpg --batch --no-tty "$@"
 
