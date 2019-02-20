@@ -1,0 +1,65 @@
+#docker
+alias d=docker
+alias dkill='d rm -vf $(docker ps -aq)'
+alias dps='d ps'
+alias di='d images'
+alias drmi='d rm -f ${docker ps -a -q}'
+
+#k8s
+alias k='kubectl'
+alias kg='k get -w'
+alias kge='kg events'
+alias kgp='kg pod'
+alias kgn='kg ns'
+alias kgpa='kgp --all-namespaces'
+alias kgs='kg svc'
+alias kgi='kg ing'
+alias kd='k describe'
+alias kdp='kd pod'
+alias kdi='kd ing'
+alias kdd='kd deployment'
+alias kds='kd svc'
+alias kdn='kd ns'
+function ktn {
+	kubectl config set-context $(kubectl config current-context) --namespace=$1
+}
+
+#helm
+alias h='helm'
+alias hl='h list'
+alias hd='h delete --purge'
+alias hda='hd $(hl -qa)'
+alias hdu='h dependency update'
+alias hi='h upgrade --install'
+alias hrl='h repo list'
+
+function hdpr {
+	PR=$1
+	hd --tiller-namespace="$PR" $(hl -qa --tiller-namespace="$PR")
+}
+
+#git
+alias g='git'
+alias ga='g add ./'
+alias gc='g commit -S -m'
+alias gp='g push'
+alias gst='g status'
+alias grh='g reset --hard'
+alias gp='g pull'
+alias gpr='gp --rebase'
+alias gr='g rebase'
+alias grm='gr master'
+alias grf='gr future'
+alias grc='gr --continue'
+alias gra='gr --abort'
+alias gsc='g clone --depth 1'
+alias ges='git filter-branch -f --commit-filter '"'"'git commit-tree -S "$@"'"'"' origin/master..HEAD'
+alias glog='git log --oneline --decorate --graph --show-signature'
+alias gbn='git rev-parse --abbrev-ref HEAD'
+alias gcm='BRANCH=`gbn` && git checkout master'
+alias gcf='BRANCH=`gbn` && git checkout future'
+alias gcb='git checkout $BRANCH'
+alias gpb='g push --set-upstream origin `gbn`'
+alias gp='g pull'
+ 
+ 
