@@ -16,4 +16,4 @@ antigen theme bhilburn/powerlevel9k powerlevel9k
 
 antigen apply
 
-source aliases
+source ~/.dotfiles/zsh/aliases
