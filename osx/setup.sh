@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo OSX setup
+echo "OSX setup - set name of computer"
 
 read NEW_NAME
 sudo scutil --set ComputerName "${NEW_NAME}"
