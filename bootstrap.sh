@@ -7,7 +7,7 @@ curl -L https://github.com/daviddenton/dotfiles/archive/master.zip -o master.zip
 unzip master.zip 
 rm -rf master.zip
 pushd ./dotfiles-master/brew
-setup.sh
+./setup.sh
 popd
 rm -rf dotfiles-master
 
