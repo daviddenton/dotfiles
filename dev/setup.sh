@@ -4,5 +4,6 @@ set -e
 
 mkdir -p ~/dev
 
+mkdir -p ~/.jenv/versions
 jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-11.0.2.jdk/Contents/Home
 jenv global 11.0
