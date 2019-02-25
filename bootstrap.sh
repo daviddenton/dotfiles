@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+rm -rf dotfiles-master
+
 curl -L https://github.com/daviddenton/dotfiles/archive/master.zip -o master.zip
 unzip master.zip 
 rm -rf master.zip
