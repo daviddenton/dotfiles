@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+cd $(dirname $0)
 set -e
 
 rm -rf .dotfiles
@@ -7,9 +8,7 @@ rm -rf dotfiles-master
 curl -L https://github.com/daviddenton/dotfiles/archive/master.zip -o master.zip
 unzip master.zip 
 rm -rf master.zip
-pushd ./dotfiles-master/brew
-./setup.sh
-popd
+./dotfiles-master/brew/setup.sh
 rm -rf dotfiles-master
 
 git clone https://github.com/daviddenton/dotfiles.git .dotfiles

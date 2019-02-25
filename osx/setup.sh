@@ -1,4 +1,5 @@
 #!/bin/bash
+cd $(dirname $0)
 set -e
 
 echo "OSX setup - set name of computer"
