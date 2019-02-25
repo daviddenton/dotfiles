@@ -6,7 +6,7 @@ rm -rf dotfiles-master
 curl -L https://github.com/daviddenton/dotfiles/archive/master.zip -o master.zip
 unzip master.zip 
 rm -rf master.zip
-.dotfiles-master/brew/setup.sh
+./dotfiles-master/brew/setup.sh
 rm -rf dotfiles-master
 
 git clone https://github.com/daviddenton/dotfiles.git .dotfiles
