@@ -7,7 +7,7 @@ echo Brew setup
 brew tap Homebrew/bundle
 brew bundle
 
-echo Sign into the App Store then press <enter>
+echo "Sign into the App Store then press <enter>"
 read enter
 
 ./mas.sh
