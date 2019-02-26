@@ -11,4 +11,4 @@ brew bundle
 echo "Sign into the App Store then press <enter>"
 read enter
 
-./mas.sh
+#./mas.sh
