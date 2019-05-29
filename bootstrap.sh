@@ -11,8 +11,8 @@ rm -rf standard.zip
 rm -rf dotfiles-standard
 
 git clone https://github.com/daviddenton/dotfiles.git .dotfiles
-git checkout -b standard
 pushd .dotfiles
+git checkout -b standard
 git remote rm origin
 git remote add origin git@github.com:daviddenton/dotfiles.git
 popd
