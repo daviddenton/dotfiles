@@ -2,23 +2,20 @@
 set -e
 
 rm -rf .dotfiles
-rm -rf dotfiles-master
+rm -rf dotfiles-standard
 
-curl -L https://github.com/daviddenton/dotfiles/archive/master.zip -o master.zip
-unzip master.zip 
-rm -rf master.zip
-./dotfiles-master/brew/setup.sh
-rm -rf dotfiles-master
+curl -L https://github.com/daviddenton/dotfiles/archive/standard.zip -o standard.zip
+unzip standard.zip 
+rm -rf standard.zip
+./dotfiles-standard/brew/setup.sh
+rm -rf dotfiles-standard
 
 git clone https://github.com/daviddenton/dotfiles.git .dotfiles
+git checkout -b standard
 pushd .dotfiles
 git remote rm origin
 git remote add origin git@github.com:daviddenton/dotfiles.git
 popd
 
-.dotfiles/git/setup.sh
-.dotfiles/gpg/setup.sh
 .dotfiles/osx/setup.sh
-.dotfiles/zsh/setup.sh
-.dotfiles/dev/setup.sh
 
