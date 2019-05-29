@@ -6,9 +6,6 @@ tap "caskroom/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-drivers"
 
-brew "antigen"
-brew "awscli"
-brew "coreutils"
 brew "dos2unix"
 brew "mas"
 
