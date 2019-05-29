@@ -1,2 +1,2 @@
 # dotfiles
-```curl -o-  https://raw.githubusercontent.com/daviddenton/dotfiles/master/bootstrap.sh | bash```
+```curl -o-  https://raw.githubusercontent.com/daviddenton/dotfiles/standard/bootstrap.sh | bash```
