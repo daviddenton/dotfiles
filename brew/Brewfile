@@ -27,6 +27,7 @@ brew "stern"
 brew "zsh"
 brew "gpg"
 brew "pinentry-mac"
+brew "mkcert"
 
 cask "adoptopenjdk11"
 cask "alfred"
