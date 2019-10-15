@@ -28,6 +28,7 @@ brew "zsh"
 brew "gpg"
 brew "pinentry-mac"
 brew "mkcert"
+brew "realpath"
 
 cask "adoptopenjdk11"
 cask "alfred"
