@@ -11,6 +11,7 @@ tap "azure/functions"
 
 brew "antigen"
 brew "awscli"
+brew "azure-cli"
 brew "azure-functions-core-tools@3"
 brew "coreutils"
 brew "dos2unix"
