@@ -17,7 +17,7 @@ git remote add origin git@github.com:daviddenton/dotfiles.git
 popd
 
 .dotfiles/git/setup.sh
-.dotfiles/gpg/setup.sh
+#.dotfiles/gpg/setup.sh
 .dotfiles/osx/setup.sh
 .dotfiles/zsh/setup.sh
 .dotfiles/dev/setup.sh
