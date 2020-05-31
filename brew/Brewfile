@@ -9,45 +9,59 @@ tap "sambadevi/powerlevel9k"
 tap "AdoptOpenJDK/openjdk"
 tap "azure/functions"
 
+
+# machine
 brew "antigen"
-brew "awscli"
-brew "azure-cli"
-brew "azure-functions-core-tools@3"
 brew "coreutils"
 brew "dos2unix"
-brew "golang"
 brew "gpg"
 brew "htop"
 brew "httpstat"
-brew "jenv"
 brew "jq"
+brew "mas"
+brew "mkcert"
+brew "pinentry-mac"
+brew "powerlevel9k"
+brew "zsh"
+
+# languages
+brew "jenv"
+brew "golang"
+brew "nvm"
+brew "yarn"
+
+# cloud
+brew "awscli"
+brew "azure-cli"
+brew "azure-functions-core-tools@3"
+
+# containers
 brew "kubectx"
 brew "kubernetes-cli"
 brew "kubernetes-helm"
-brew "mas"
-brew "mkcert"
-brew "nvm"
-brew "pinentry-mac"
-brew "powerlevel9k"
 brew "stern"
-brew "zsh"
 
-cask "adoptopenjdk11"
+# machine
 cask "alfred"
 cask "backblaze"
 cask "dashlane"
-cask "docker"
 cask "font-inconsolata-dz-for-powerline"
 cask "franz"
 cask "google-chrome"
+cask "jetbrains-toolbox"
 cask "keystore-explorer"
 cask "iterm2"
-cask "jetbrains-toolbox"
 cask "jiggler"
 cask "signal"
 cask "spotify"
 cask "sublime-text"
 cask "tunnelblick"
 cask "vlc"
-cask "yourkit-java-profiler"
 cask "zoomus"
+
+# containers
+cask "docker"
+
+# languages
+cask "adoptopenjdk11"
+cask "yourkit-java-profiler"
