@@ -15,6 +15,7 @@ antigen theme bhilburn/powerlevel9k powerlevel9k
 
 antigen apply
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
 
 source ~/.dotfiles/zsh/aliases
+source ~/.dotfiles/zsh/nvm
