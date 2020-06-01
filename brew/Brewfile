@@ -30,12 +30,11 @@ brew "golang"
 brew "nvm"
 brew "yarn"
 
-# cloud
+# cloudnative
 brew "awscli"
 brew "azure-cli"
 brew "azure-functions-core-tools@3"
-
-# containers
+brew "faas-cli"
 brew "kubectx"
 brew "kubernetes-cli"
 brew "kubernetes-helm"
