@@ -33,15 +33,11 @@ alias hdu='h dependency update'
 alias hi='h upgrade --install'
 alias hrl='h repo list'
 
-function hdpr {
-	PR=$1
-	hd --tiller-namespace="$PR" $(hl -qa --tiller-namespace="$PR")
-}
-
 #git
 alias g='git'
 alias ga='g add ./'
 alias gc='g commit -S -m'
+alias gcu="g fetch -p && for branch in $(g branch -vv | grep ': gone]' | awk '{print $1}'); do g branch -D $branch; done"
 alias gp='g push'
 alias gst='g status'
 alias grh='g reset --hard'
@@ -61,5 +57,4 @@ alias gcf='BRANCH=`gbn` && git checkout future'
 alias gcb='git checkout $BRANCH'
 alias gpb='g push --set-upstream origin `gbn`'
 alias gp='g pull'
- 
- 
+
