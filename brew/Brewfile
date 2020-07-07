@@ -29,6 +29,7 @@ brew "jenv"
 brew "golang"
 brew "nvm"
 brew "yarn"
+brew "pyenv"
 
 # cloudnative
 brew "awscli"
