@@ -5,6 +5,7 @@ alias dps='d ps'
 alias di='d images'
 alias drmi='d rm -f ${docker ps -a -q}'
 
+
 #k8s
 alias k='kubectl'
 alias kg='k get -w'
@@ -20,6 +21,7 @@ alias kdi='kd ing'
 alias kdd='kd deployment'
 alias kds='kd svc'
 alias kdn='kd ns'
+
 function ktn {
 	kubectl config set-context $(kubectl config current-context) --namespace=$1
 }
@@ -33,6 +35,7 @@ alias hdu='h dependency update'
 alias hi='h upgrade --install'
 alias hrl='h repo list'
 
+
 #git
 alias g='git'
 alias ga='g add ./'
@@ -45,6 +48,7 @@ alias gp='g pull'
 alias gpr='gp --rebase'
 alias gr='g rebase'
 alias grm='gr master'
+
 alias grf='gr future'
 alias grc='gr --continue'
 alias gra='gr --abort'
