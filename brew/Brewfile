@@ -23,6 +23,7 @@ brew "mas"
 brew "mkcert"
 brew "pinentry-mac"
 brew "powerlevel9k"
+brew "wrk"
 brew "zsh"
 
 # languages
