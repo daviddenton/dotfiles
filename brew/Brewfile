@@ -28,6 +28,10 @@ brew "powerlevel9k"
 brew "wrk"
 brew "zsh"
 
+#misc
+brew "libtool"
+brew "graphviz"
+
 # languages
 brew "jenv"
 brew "golang"
