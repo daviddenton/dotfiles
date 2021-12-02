@@ -12,7 +12,6 @@ tap "aws/tap"
 tap "AdoptOpenJDK/openjdk"
 tap "azure/functions"
 
-
 # machine
 brew "antigen"
 brew "coreutils"
@@ -44,11 +43,10 @@ brew "pyenv"
 # cloudnative
 brew "awscli"
 brew "aws-sam-cli"
-brew "azure-cli"
-brew "azure-functions-core-tools@3"
 brew "faas-cli"
 brew "heroku"
 brew "http4k"
+brew "k9s"
 brew "kubectx"
 brew "kubernetes-cli"
 brew "kubernetes-helm"
