@@ -1,7 +1,6 @@
 tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap "homebrew/cask-versions"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-drivers"
@@ -77,5 +76,5 @@ cask "zoomus"
 cask "docker"
 
 # languages
-cask "adoptopenjdk11"
+cask "temurin11"
 cask "yourkit-java-profiler"
