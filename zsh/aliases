@@ -62,3 +62,4 @@ alias gcb='git checkout $BRANCH'
 alias gpb='g push --set-upstream origin `gbn`'
 alias gp='g pull'
 
+alias approve="find . -name \"*.actual\" -exec rename --force 's|\.actual|\.approved|' {} +
