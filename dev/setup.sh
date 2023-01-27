@@ -6,4 +6,4 @@ mkdir -p ~/dev
 
 mkdir -p ~/.jenv/versions
 jenv add /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home
-jenv global 17
+jenv global 17.0
