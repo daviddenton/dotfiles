@@ -6,7 +6,6 @@ antigen bundle command-not-found
 antigen bundle history
 antigen bundle zsh-users/zsh-completions src
 antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle kennethreitz/autoenv
 antigen bundle git
 antigen bundle pip
 antigen theme romkatv/powerlevel10k
