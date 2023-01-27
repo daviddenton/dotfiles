@@ -39,7 +39,7 @@ brew "jenv"
 brew "nvm"
 brew "yarn"
 brew "pyenv"
-brew "openjdk@17"
+cask "temurin17"
 
 # cloudnative
 brew "awscli"
@@ -76,6 +76,3 @@ cask "zoom"
 # containers
 cask "docker"
 cask "redisinsight"
-
-# languages
-cask "temurin17"
