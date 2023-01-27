@@ -1,5 +1,6 @@
 POWERLEVEL9K_INSTALLATION_PATH=$ANTIGEN_BUNDLES/bhilburn/powerlevel9k
-source /usr/local/share/antigen/antigen.zsh
+
+source /opt/homebrew/share/antigen/antigen.zsh
 
 antigen use oh-my-zsh
 
