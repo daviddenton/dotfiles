@@ -16,4 +16,3 @@ export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
 
 source ~/.dotfiles/zsh/aliases
 source ~/.dotfiles/zsh/nvm
-source ~/.dotfiles/zsh/pyenv
