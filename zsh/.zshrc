@@ -15,8 +15,9 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle git
 antigen bundle pip
-antigen theme romkatv/powerlevel10k
+antigen bundle lukechilds/zsh-nvm
 
+antigen theme romkatv/powerlevel10k
 antigen apply
 
 export PATH="$HOME/.jenv/bin:$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH"
