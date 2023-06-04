@@ -28,6 +28,7 @@ brew "rename"
 brew "pinentry-mac"
 brew "powerlevel10k"
 brew "watchexec"
+brew "watch"
 brew "zsh"
 
 #misc
