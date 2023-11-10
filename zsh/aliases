@@ -1,6 +1,6 @@
 #docker
 alias d=docker
-alias dkill='d rm -vf $(docker ps -aq)'
+alias dkill='d rm -vf $(docker ps -aq) && d volume prune -f'
 alias dps='d ps'
 alias di='d images'
 alias drmi='d rm -f ${docker ps -a -q}'
