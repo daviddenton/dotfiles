@@ -10,6 +10,7 @@ tap "heroku/brew"
 tap "http4k/tap"
 tap "aws/tap"
 tap "charmbracelet/tap"
+tap "ynqa/tap"
 
 # machine
 brew "act"
@@ -34,6 +35,7 @@ brew "zsh"
 #misc
 brew "libtool"
 brew "graphviz"
+brew "jnv"
 
 # languages
 brew "jenv"
