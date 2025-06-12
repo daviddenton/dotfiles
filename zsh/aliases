@@ -64,4 +64,5 @@ alias gp='g pull'
 
 # misc
 alias jsut='just'
-alias approve="find . -name \"*.actual\" -exec rename --force 's|\.actual|\.approved|' {} +"
+
+alias approve='find . -name "*.actual" -exec sh -c '\''mv "$1" "${1%.actual}.approved"'\'' _ {} \;'
